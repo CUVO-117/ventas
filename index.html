@@ -411,7 +411,7 @@
       <p class="hero-desc">Contenedores herméticos y organizadores pensados para durar. Elige tus productos, agrégalos al carrito y te escribimos por WhatsApp para confirmar tu pedido.</p>
       <div class="hero-btns">
         <a href="#catalogo" class="btn-fill">Ver catálogo</a>
-        <a href="https://wa.me/525541878852?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20sus%20productos" target="_blank" class="btn-line">💬 Escribir por WhatsApp</a>
+        <a href="https://wa.me/5215541878852?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20sus%20productos" target="_blank" class="btn-line">💬 Escribir por WhatsApp</a>
       </div>
       <div class="hero-stats">
         <div><div class="stat-num">100%</div><div class="stat-label">Hermético garantizado</div></div>
@@ -462,14 +462,14 @@
 <section id="catalogo" class="section">
   <div class="eyebrow">Catálogo</div>
   <h2 class="sec-title">Elige y agrega al <em>carrito</em></h2>
-  <p class="sec-lead">Selecciona la cantidad, agrégalo a tu carrito y al final te ayudamos a confirmar todo por WhatsApp — un mensaje por cada producto.</p>
+  <p class="sec-lead">Selecciona la cantidad, agrégalo a tu carrito y al final te ayudamos a confirmar todo por WhatsApp — con foto, precio y código incluidos.</p>
 
   <div class="cat-filters">
     <button class="cat-filter active" data-filter="todos">Todos</button>
     <button class="cat-filter" data-filter="hermeticos">Herméticos</button>
-    <button class="cat-filter" data-filter="contenedores">Contenedores</button>
-    <button class="cat-filter" data-filter="cocina">Utensilios de cocina</button>
-    <button class="cat-filter" data-filter="organizadores">Organizadores</button>
+    <button class="cat-filter" data-filter="bebidas">Jarras y Bebidas</button>
+    <button class="cat-filter" data-filter="cocina">Cocina</button>
+    <button class="cat-filter" data-filter="hogar">Hogar y Decoración</button>
     <button class="cat-filter" data-filter="ofertas">Ofertas</button>
   </div>
 
@@ -479,66 +479,128 @@
     <div class="cat-group-sub">Sellado perfecto para mantener tus alimentos frescos por más tiempo.</div>
     <div class="prod-grid">
 
-      <div class="prod-card" data-id="h1" data-name="Hermético Redondo 1L" data-price="180">
-        <div class="prod-img">🥣<span class="prod-img-tag">Más vendido</span></div>
-        <!-- 📷 Sustituye el emoji de .prod-img arriba por: <img src="fotos/h1.jpg" style="width:100%;height:100%;object-fit:cover;"> -->
+      <div class="prod-card" data-id="p1" data-name="Modular Fresh Cuadrado 1.25L" data-code="A-581C · 10164068" data-price="194.90" data-img="images/modular-fresh-cuadrado.jpg">
+        <div class="prod-img"><img src="images/modular-fresh-cuadrado.jpg" alt="Modular Fresh Cuadrado 1.25L" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">-20%</span></div>
         <div class="prod-body">
           <div class="prod-cat-label">Herméticos</div>
-          <div class="prod-name">Hermético Redondo 1L</div>
-          <div class="prod-desc">Tapa con sello de silicón, apto microondas y refrigerador.</div>
+          <div class="prod-name">Modular Fresh Cuadrado 1.25L</div>
+          <div class="prod-desc">Código A-581C · 10164068. Ideal para guardar verduras y mantenerlas frescas.</div>
           <div class="prod-foot">
-            <div class="prod-price">$180</div>
+            <div class="prod-price">$194.90</div>
             <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('h1',-1)">−</button>
-              <span class="qty-val" id="qty-h1">1</span>
-              <button class="qty-btn" onclick="changeQty('h1',1)">+</button>
+              <button class="qty-btn" onclick="changeQty('p1',-1)">−</button>
+              <span class="qty-val" id="qty-p1">1</span>
+              <button class="qty-btn" onclick="changeQty('p1',1)">+</button>
             </div>
           </div>
           <div class="prod-actions">
-            <button class="btn-add" id="btn-h1" onclick="addToCart('h1')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('h1')">💬</a>
+            <button class="btn-add" id="btn-p1" onclick="addToCart('p1')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p1')">💬</a>
           </div>
         </div>
       </div>
 
-      <div class="prod-card" data-id="h2" data-name="Hermético Rectangular 2L" data-price="240">
-        <div class="prod-img">🍱</div>
+      <div class="prod-card" data-id="p2" data-name="Modular Fresh Rectangular 1.8L" data-code="" data-price="129.90" data-img="images/modular-fresh-rectangular.jpg">
+        <div class="prod-img"><img src="images/modular-fresh-rectangular.jpg" alt="Modular Fresh Rectangular 1.8L" style="width:100%;height:100%;object-fit:cover;"></div>
         <div class="prod-body">
           <div class="prod-cat-label">Herméticos</div>
-          <div class="prod-name">Hermético Rectangular 2L</div>
-          <div class="prod-desc">Ideal para preparar comida de la semana. Apilable y ahorra espacio.</div>
+          <div class="prod-name">Modular Fresh Rectangular 1.8L</div>
+          <div class="prod-desc">Sello hermético, apilable. Levanta jalando hacia arriba de la pestaña.</div>
           <div class="prod-foot">
-            <div class="prod-price">$240</div>
+            <div class="prod-price">$129.90</div>
             <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('h2',-1)">−</button>
-              <span class="qty-val" id="qty-h2">1</span>
-              <button class="qty-btn" onclick="changeQty('h2',1)">+</button>
+              <button class="qty-btn" onclick="changeQty('p2',-1)">−</button>
+              <span class="qty-val" id="qty-p2">1</span>
+              <button class="qty-btn" onclick="changeQty('p2',1)">+</button>
             </div>
           </div>
           <div class="prod-actions">
-            <button class="btn-add" id="btn-h2" onclick="addToCart('h2')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('h2')">💬</a>
+            <button class="btn-add" id="btn-p2" onclick="addToCart('p2')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p2')">💬</a>
           </div>
         </div>
       </div>
 
-      <div class="prod-card" data-id="h3" data-name="Set Herméticos x4" data-price="650">
-        <div class="prod-img">📦<span class="prod-img-tag">Set</span></div>
+      <div class="prod-card" data-id="p3" data-name="Bote chico 1.2L" data-code="" data-price="99.90" data-img="images/bote-chico-morado.jpg">
+        <div class="prod-img"><img src="images/bote-chico-morado.jpg" alt="Bote chico 1.2L" style="width:100%;height:100%;object-fit:cover;"></div>
         <div class="prod-body">
           <div class="prod-cat-label">Herméticos</div>
-          <div class="prod-name">Set Herméticos x4</div>
-          <div class="prod-desc">Cuatro tamaños distintos para cubrir toda tu despensa.</div>
+          <div class="prod-name">Bote chico 1.2L</div>
+          <div class="prod-desc">Contenedor translúcido morado, ideal para frutas y botanas.</div>
           <div class="prod-foot">
-            <div class="prod-price">$650</div>
+            <div class="prod-price">$99.90</div>
             <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('h3',-1)">−</button>
-              <span class="qty-val" id="qty-h3">1</span>
-              <button class="qty-btn" onclick="changeQty('h3',1)">+</button>
+              <button class="qty-btn" onclick="changeQty('p3',-1)">−</button>
+              <span class="qty-val" id="qty-p3">1</span>
+              <button class="qty-btn" onclick="changeQty('p3',1)">+</button>
             </div>
           </div>
           <div class="prod-actions">
-            <button class="btn-add" id="btn-h3" onclick="addToCart('h3')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('h3')">💬</a>
+            <button class="btn-add" id="btn-p3" onclick="addToCart('p3')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p3')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p4" data-name="Bote para refri chico 1.7L" data-code="" data-price="99.90" data-img="images/bote-refri-margaritas.jpg">
+        <div class="prod-img"><img src="images/bote-refri-margaritas.jpg" alt="Bote para refri chico 1.7L" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Herméticos</div>
+          <div class="prod-name">Bote para refri chico 1.7L</div>
+          <div class="prod-desc">Diseño de margaritas, perfecto para guardar fruta picada en el refrigerador.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$99.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p4',-1)">−</button>
+              <span class="qty-val" id="qty-p4">1</span>
+              <button class="qty-btn" onclick="changeQty('p4',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p4" onclick="addToCart('p4')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p4')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p5" data-name="Micro Flash Rectangular con Divisiones 1L" data-code="K-268D/K-268K" data-price="139.90" data-img="images/micro-flash-divisiones.jpg">
+        <div class="prod-img"><img src="images/micro-flash-divisiones.jpg" alt="Micro Flash Rectangular con Divisiones" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">Rosa / Negro</span></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Herméticos</div>
+          <div class="prod-name">Micro Flash con Divisiones 1L</div>
+          <div class="prod-desc">Código K-268D (rosa) · K-268K (negro). Apto para microondas, con divisiones internas.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$139.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p5',-1)">−</button>
+              <span class="qty-val" id="qty-p5">1</span>
+              <button class="qty-btn" onclick="changeQty('p5',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p5" onclick="addToCart('p5')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p5')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p6" data-name="Picadilly 1L" data-code="" data-price="129.90" data-img="images/picadilly.jpg">
+        <div class="prod-img"><img src="images/picadilly.jpg" alt="Picadilly 1L" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Herméticos</div>
+          <div class="prod-name">Picadilly 1L</div>
+          <div class="prod-desc">Contenedor alto color petróleo, ideal para alimentos picados o en trozos.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$129.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p6',-1)">−</button>
+              <span class="qty-val" id="qty-p6">1</span>
+              <button class="qty-btn" onclick="changeQty('p6',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p6" onclick="addToCart('p6')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p6')">💬</a>
           </div>
         </div>
       </div>
@@ -546,71 +608,176 @@
     </div>
   </div>
 
-  <!-- CONTENEDORES -->
-  <div class="cat-group" data-cat="contenedores">
-    <div class="cat-group-title">Contenedores</div>
-    <div class="cat-group-sub">Para alacena, refrigerador y transporte de alimentos.</div>
+  <!-- JARRAS Y BEBIDAS -->
+  <div class="cat-group" data-cat="bebidas">
+    <div class="cat-group-title">Jarras y Bebidas</div>
+    <div class="cat-group-sub">Practijarras, termos y vasos para toda la familia.</div>
     <div class="prod-grid">
 
-      <div class="prod-card" data-id="c1" data-name="Contenedor Despensa 3L" data-price="220">
-        <div class="prod-img">🫙</div>
+      <div class="prod-card" data-id="p7" data-name="Practijarra Grande 2.25L" data-code="G-18CC · 10164273" data-price="279.90" data-img="images/practijarra-rosa.jpg">
+        <div class="prod-img"><img src="images/practijarra-rosa.jpg" alt="Practijarra Grande 2.25L" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">-30%</span></div>
         <div class="prod-body">
-          <div class="prod-cat-label">Contenedores</div>
-          <div class="prod-name">Contenedor Despensa 3L</div>
-          <div class="prod-desc">Perfecto para harina, azúcar, cereales y granos.</div>
+          <div class="prod-cat-label">Bebidas</div>
+          <div class="prod-name">Practijarra Grande 2.25L</div>
+          <div class="prod-desc">Código G-18CC · 10164273. Tapa con dosificador para servir sin derramar.</div>
           <div class="prod-foot">
-            <div class="prod-price">$220</div>
+            <div class="prod-price">$279.90</div>
             <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('c1',-1)">−</button>
-              <span class="qty-val" id="qty-c1">1</span>
-              <button class="qty-btn" onclick="changeQty('c1',1)">+</button>
+              <button class="qty-btn" onclick="changeQty('p7',-1)">−</button>
+              <span class="qty-val" id="qty-p7">1</span>
+              <button class="qty-btn" onclick="changeQty('p7',1)">+</button>
             </div>
           </div>
           <div class="prod-actions">
-            <button class="btn-add" id="btn-c1" onclick="addToCart('c1')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('c1')">💬</a>
+            <button class="btn-add" id="btn-p7" onclick="addToCart('p7')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p7')">💬</a>
           </div>
         </div>
       </div>
 
-      <div class="prod-card" data-id="c2" data-name="Contenedor para Lunch" data-price="195">
-        <div class="prod-img">🍽️</div>
+      <div class="prod-card" data-id="p8" data-name="Practijarra Decorada 1.5L" data-code="" data-price="179.90" data-img="images/practijarra-rosa-1.5l.jpg">
+        <div class="prod-img"><img src="images/practijarra-rosa-1.5l.jpg" alt="Practijarra Decorada 1.5L" style="width:100%;height:100%;object-fit:cover;"></div>
         <div class="prod-body">
-          <div class="prod-cat-label">Contenedores</div>
-          <div class="prod-name">Contenedor para Lunch</div>
-          <div class="prod-desc">Con divisiones internas, ideal para llevar tu comida al trabajo.</div>
+          <div class="prod-cat-label">Bebidas</div>
+          <div class="prod-name">Practijarra Decorada 1.5L</div>
+          <div class="prod-desc">Color rosa vibrante, tamaño compacto para el día a día.</div>
           <div class="prod-foot">
-            <div class="prod-price">$195</div>
+            <div class="prod-price">$179.90</div>
             <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('c2',-1)">−</button>
-              <span class="qty-val" id="qty-c2">1</span>
-              <button class="qty-btn" onclick="changeQty('c2',1)">+</button>
+              <button class="qty-btn" onclick="changeQty('p8',-1)">−</button>
+              <span class="qty-val" id="qty-p8">1</span>
+              <button class="qty-btn" onclick="changeQty('p8',1)">+</button>
             </div>
           </div>
           <div class="prod-actions">
-            <button class="btn-add" id="btn-c2" onclick="addToCart('c2')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('c2')">💬</a>
+            <button class="btn-add" id="btn-p8" onclick="addToCart('p8')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p8')">💬</a>
           </div>
         </div>
       </div>
 
-      <div class="prod-card" data-id="c3" data-name="Contenedor Líquidos 1.5L" data-price="160">
-        <div class="prod-img">🧴</div>
+      <div class="prod-card" data-id="p9" data-name="Termo Abre Fácil 430ml" data-code="SW2046W · 10164952" data-price="549.90" data-img="images/termo-abrefacil-gris.jpg">
+        <div class="prod-img"><img src="images/termo-abrefacil-gris.jpg" alt="Termo Abre Fácil 430ml" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">1 clic</span></div>
         <div class="prod-body">
-          <div class="prod-cat-label">Contenedores</div>
-          <div class="prod-name">Contenedor Líquidos 1.5L</div>
-          <div class="prod-desc">Tapa con válvula antiderrame, ideal para agua y jugos.</div>
+          <div class="prod-cat-label">Bebidas</div>
+          <div class="prod-name">Termo Abre Fácil 430ml</div>
+          <div class="prod-desc">Código SW2046W · 10164952. Abre con un solo botón, ideal para llevar en el camino.</div>
           <div class="prod-foot">
-            <div class="prod-price">$160</div>
+            <div class="prod-price">$549.90</div>
             <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('c3',-1)">−</button>
-              <span class="qty-val" id="qty-c3">1</span>
-              <button class="qty-btn" onclick="changeQty('c3',1)">+</button>
+              <button class="qty-btn" onclick="changeQty('p9',-1)">−</button>
+              <span class="qty-val" id="qty-p9">1</span>
+              <button class="qty-btn" onclick="changeQty('p9',1)">+</button>
             </div>
           </div>
           <div class="prod-actions">
-            <button class="btn-add" id="btn-c3" onclick="addToCart('c3')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('c3')">💬</a>
+            <button class="btn-add" id="btn-p9" onclick="addToCart('p9')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p9')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p10" data-name="Termo Morado 430ml" data-code="" data-price="479.90" data-img="images/termo-morado.jpg">
+        <div class="prod-img"><img src="images/termo-morado.jpg" alt="Termo Morado 430ml" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Bebidas</div>
+          <div class="prod-name">Termo Morado 430ml</div>
+          <div class="prod-desc">Para bebidas calientes o frías, acero inoxidable, fácil de cargar.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$479.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p10',-1)">−</button>
+              <span class="qty-val" id="qty-p10">1</span>
+              <button class="qty-btn" onclick="changeQty('p10',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p10" onclick="addToCart('p10')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p10')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p11" data-name="Big T Rosa 1.1L" data-code="" data-price="680" data-img="images/big-t-rosa.jpg">
+        <div class="prod-img"><img src="images/big-t-rosa.jpg" alt="Big T Rosa 1.1L" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">Nuevo</span></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Bebidas</div>
+          <div class="prod-name">Big T Rosa 1.1L</div>
+          <div class="prod-desc">Vaso térmico grande con asa, ideal para llevar café o agua todo el día.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$680</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p11',-1)">−</button>
+              <span class="qty-val" id="qty-p11">1</span>
+              <button class="qty-btn" onclick="changeQty('p11',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p11" onclick="addToCart('p11')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p11')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p12" data-name="Eco Active Princesas 750ml" data-code="U-1050 · 10158220" data-price="159.90" data-img="images/eco-active-princesas.jpg">
+        <div class="prod-img"><img src="images/eco-active-princesas.jpg" alt="Eco Active Princesas 750ml" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">Disney</span></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Bebidas</div>
+          <div class="prod-name">Eco Active Princesas 750ml</div>
+          <div class="prod-desc">Código U-1050 · 10158220. Edición especial Disney Princesas, arte extendido.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$159.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p12',-1)">−</button>
+              <span class="qty-val" id="qty-p12">1</span>
+              <button class="qty-btn" onclick="changeQty('p12',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p12" onclick="addToCart('p12')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p12')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p13" data-name="Practivaso Toy Story 4, 470ml" data-code="U-571A · 1166410" data-price="79.90" data-img="images/practivaso-toystory.jpg">
+        <div class="prod-img"><img src="images/practivaso-toystory.jpg" alt="Practivaso Toy Story 4" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">-50%</span></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Bebidas</div>
+          <div class="prod-name">Practivaso Toy Story 4, 470ml</div>
+          <div class="prod-desc">Código U-571A · 1166410. Edición Disney/Pixar, hasta agotar existencias.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$79.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p13',-1)">−</button>
+              <span class="qty-val" id="qty-p13">1</span>
+              <button class="qty-btn" onclick="changeQty('p13',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p13" onclick="addToCart('p13')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p13')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p14" data-name="Vaso Entrenador 150ml" data-code="T-168E · 34755 (Rosa) / T-168F · 34756 (Azul)" data-price="134.90" data-img="images/vaso-entrenador.jpg">
+        <div class="prod-img"><img src="images/vaso-entrenador.jpg" alt="Vaso Entrenador 150ml" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Bebidas</div>
+          <div class="prod-name">Vaso Entrenador 150ml</div>
+          <div class="prod-desc">Códigos T-168E (rosa) / T-168F (azul). Con sello de pipeta y tapa antiderrames para bebé.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$134.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p14',-1)">−</button>
+              <span class="qty-val" id="qty-p14">1</span>
+              <button class="qty-btn" onclick="changeQty('p14',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p14" onclick="addToCart('p14')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p14')">💬</a>
           </div>
         </div>
       </div>
@@ -618,50 +785,113 @@
     </div>
   </div>
 
-  <!-- UTENSILIOS DE COCINA -->
+  <!-- COCINA -->
   <div class="cat-group" data-cat="cocina">
-    <div class="cat-group-title">Utensilios de cocina</div>
-    <div class="cat-group-sub">Herramientas prácticas para el día a día.</div>
+    <div class="cat-group-title">Cocina</div>
+    <div class="cat-group-sub">Tazones, utensilios y herramientas para preparar tus alimentos.</div>
     <div class="prod-grid">
 
-      <div class="prod-card" data-id="u1" data-name="Set de Espátulas x3" data-price="150">
-        <div class="prod-img">🥄</div>
+      <div class="prod-card" data-id="p15" data-name="Tazón Blossom 550ml" data-code="F-510L · 10156671" data-price="79.90" data-img="images/tazon-blossom.jpg">
+        <div class="prod-img"><img src="images/tazon-blossom.jpg" alt="Tazón Blossom 550ml" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">-55%</span></div>
         <div class="prod-body">
-          <div class="prod-cat-label">Utensilios</div>
-          <div class="prod-name">Set de Espátulas x3</div>
-          <div class="prod-desc">Resistentes al calor, ergonómicas y fáciles de limpiar.</div>
+          <div class="prod-cat-label">Cocina</div>
+          <div class="prod-name">Tazón Blossom 550ml</div>
+          <div class="prod-desc">Código F-510L · 10156671. Ideal para guacamole, dips y porciones individuales.</div>
           <div class="prod-foot">
-            <div class="prod-price">$150</div>
+            <div class="prod-price">$79.90</div>
             <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('u1',-1)">−</button>
-              <span class="qty-val" id="qty-u1">1</span>
-              <button class="qty-btn" onclick="changeQty('u1',1)">+</button>
+              <button class="qty-btn" onclick="changeQty('p15',-1)">−</button>
+              <span class="qty-val" id="qty-p15">1</span>
+              <button class="qty-btn" onclick="changeQty('p15',1)">+</button>
             </div>
           </div>
           <div class="prod-actions">
-            <button class="btn-add" id="btn-u1" onclick="addToCart('u1')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('u1')">💬</a>
+            <button class="btn-add" id="btn-p15" onclick="addToCart('p15')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p15')">💬</a>
           </div>
         </div>
       </div>
 
-      <div class="prod-card" data-id="u2" data-name="Rallador Multiusos" data-price="130">
-        <div class="prod-img">🧀</div>
+      <div class="prod-card" data-id="p16" data-name="Ultra Tazón Chico 2.75L" data-code="" data-price="129.90" data-img="images/ultra-tazon-azul.jpg">
+        <div class="prod-img"><img src="images/ultra-tazon-azul.jpg" alt="Ultra Tazón Chico 2.75L" style="width:100%;height:100%;object-fit:cover;"></div>
         <div class="prod-body">
-          <div class="prod-cat-label">Utensilios</div>
-          <div class="prod-name">Rallador Multiusos</div>
-          <div class="prod-desc">Varias texturas en un solo utensilio compacto.</div>
+          <div class="prod-cat-label">Cocina</div>
+          <div class="prod-name">Ultra Tazón Chico 2.75L</div>
+          <div class="prod-desc">Con pico vertedor, perfecto para mezclar y servir directo.</div>
           <div class="prod-foot">
-            <div class="prod-price">$130</div>
+            <div class="prod-price">$129.90</div>
             <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('u2',-1)">−</button>
-              <span class="qty-val" id="qty-u2">1</span>
-              <button class="qty-btn" onclick="changeQty('u2',1)">+</button>
+              <button class="qty-btn" onclick="changeQty('p16',-1)">−</button>
+              <span class="qty-val" id="qty-p16">1</span>
+              <button class="qty-btn" onclick="changeQty('p16',1)">+</button>
             </div>
           </div>
           <div class="prod-actions">
-            <button class="btn-add" id="btn-u2" onclick="addToCart('u2')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('u2')">💬</a>
+            <button class="btn-add" id="btn-p16" onclick="addToCart('p16')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p16')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p17" data-name="Tazón Maravilla Petit Rosa 775ml" data-code="" data-price="89.90" data-img="images/tazon-maravilla-rosa.jpg">
+        <div class="prod-img"><img src="images/tazon-maravilla-rosa.jpg" alt="Tazón Maravilla Petit Rosa" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Cocina</div>
+          <div class="prod-name">Tazón Maravilla Petit Rosa 775ml</div>
+          <div class="prod-desc">Tazón translúcido con tapa rosa, tamaño práctico para porciones medianas.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$89.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p17',-1)">−</button>
+              <span class="qty-val" id="qty-p17">1</span>
+              <button class="qty-btn" onclick="changeQty('p17',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p17" onclick="addToCart('p17')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p17')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p18" data-name="Tazón Botanero" data-code="" data-price="69.90" data-img="images/tazon-botanero.jpg">
+        <div class="prod-img"><img src="images/tazon-botanero.jpg" alt="Tazón Botanero" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">Negro / Rosa</span></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Cocina</div>
+          <div class="prod-name">Tazón Botanero</div>
+          <div class="prod-desc">Tamaño individual, perfecto para botanas y salsas. Disponible en negro y rosa.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$69.90 c/u</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p18',-1)">−</button>
+              <span class="qty-val" id="qty-p18">1</span>
+              <button class="qty-btn" onclick="changeQty('p18',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p18" onclick="addToCart('p18')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p18')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="p19" data-name="Multi Pelador" data-code="B-241 · 1166090" data-price="119.90" data-img="images/multi-pelador.jpg">
+        <div class="prod-img"><img src="images/multi-pelador.jpg" alt="Multi Pelador" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">-40%</span></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Cocina</div>
+          <div class="prod-name">Multi Pelador</div>
+          <div class="prod-desc">Código B-241 · 1166090. Pelador con doble navaja, deshojador y retira raíces. Mide 13.5 x 7.5 cm.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$119.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('p19',-1)">−</button>
+              <span class="qty-val" id="qty-p19">1</span>
+              <button class="qty-btn" onclick="changeQty('p19',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-p19" onclick="addToCart('p19')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p19')">💬</a>
           </div>
         </div>
       </div>
@@ -669,50 +899,29 @@
     </div>
   </div>
 
-  <!-- ORGANIZADORES -->
-  <div class="cat-group" data-cat="organizadores">
-    <div class="cat-group-title">Organizadores</div>
-    <div class="cat-group-sub">Para alacena, refrigerador y cajones ordenados.</div>
+  <!-- HOGAR Y DECORACIÓN -->
+  <div class="cat-group" data-cat="hogar">
+    <div class="cat-group-title">Hogar y Decoración</div>
+    <div class="cat-group-sub">Piezas grandes con diseños especiales para tu cocina.</div>
     <div class="prod-grid">
 
-      <div class="prod-card" data-id="o1" data-name="Organizador de Refrigerador" data-price="210">
-        <div class="prod-img">🧊</div>
+      <div class="prod-card" data-id="p20" data-name="Tazón Ilumina Extra Grande 6.6L" data-code="" data-price="239.90" data-img="images/tazon-ilumina-flores.jpg">
+        <div class="prod-img"><img src="images/tazon-ilumina-flores.jpg" alt="Tazón Ilumina Extra Grande 6.6L" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">Edición especial</span></div>
         <div class="prod-body">
-          <div class="prod-cat-label">Organizadores</div>
-          <div class="prod-name">Organizador de Refrigerador</div>
-          <div class="prod-desc">Divisiones ajustables, ideal para verduras y frutas.</div>
+          <div class="prod-cat-label">Hogar</div>
+          <div class="prod-name">Tazón Ilumina Extra Grande 6.6L</div>
+          <div class="prod-desc">Diseño floral con camioneta vintage, ideal para guardar grandes cantidades o decorar.</div>
           <div class="prod-foot">
-            <div class="prod-price">$210</div>
+            <div class="prod-price">$239.90</div>
             <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('o1',-1)">−</button>
-              <span class="qty-val" id="qty-o1">1</span>
-              <button class="qty-btn" onclick="changeQty('o1',1)">+</button>
+              <button class="qty-btn" onclick="changeQty('p20',-1)">−</button>
+              <span class="qty-val" id="qty-p20">1</span>
+              <button class="qty-btn" onclick="changeQty('p20',1)">+</button>
             </div>
           </div>
           <div class="prod-actions">
-            <button class="btn-add" id="btn-o1" onclick="addToCart('o1')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('o1')">💬</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="prod-card" data-id="o2" data-name="Organizador de Cajón" data-price="175">
-        <div class="prod-img">🗄️</div>
-        <div class="prod-body">
-          <div class="prod-cat-label">Organizadores</div>
-          <div class="prod-name">Organizador de Cajón</div>
-          <div class="prod-desc">Compartimentos modulares para cubiertos y utensilios.</div>
-          <div class="prod-foot">
-            <div class="prod-price">$175</div>
-            <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('o2',-1)">−</button>
-              <span class="qty-val" id="qty-o2">1</span>
-              <button class="qty-btn" onclick="changeQty('o2',1)">+</button>
-            </div>
-          </div>
-          <div class="prod-actions">
-            <button class="btn-add" id="btn-o2" onclick="addToCart('o2')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('o2')">💬</a>
+            <button class="btn-add" id="btn-p20" onclick="addToCart('p20')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('p20')">💬</a>
           </div>
         </div>
       </div>
@@ -723,26 +932,68 @@
   <!-- OFERTAS -->
   <div class="cat-group" data-cat="ofertas">
     <div class="cat-group-title">Ofertas</div>
-    <div class="cat-group-sub">Paquetes especiales con precio preferencial.</div>
+    <div class="cat-group-sub">Los mejores descuentos del catálogo, por tiempo limitado.</div>
     <div class="prod-grid">
 
-      <div class="prod-card" data-id="f1" data-name="Kit Inicial Cocina (6 piezas)" data-price="890">
-        <div class="prod-img">🎁<span class="prod-img-tag">-15%</span></div>
+      <div class="prod-card" data-id="o-p15" data-name="Tazón Blossom 550ml (Oferta)" data-code="F-510L · 10156671" data-price="79.90" data-img="images/tazon-blossom.jpg">
+        <div class="prod-img"><img src="images/tazon-blossom.jpg" alt="Tazón Blossom 550ml" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">-55%</span></div>
         <div class="prod-body">
-          <div class="prod-cat-label">Ofertas</div>
-          <div class="prod-name">Kit Inicial Cocina (6 piezas)</div>
-          <div class="prod-desc">Combina herméticos, contenedor y organizador. Precio especial de paquete.</div>
+          <div class="prod-cat-label">Oferta</div>
+          <div class="prod-name">Tazón Blossom 550ml</div>
+          <div class="prod-desc">Código F-510L · 10156671. Antes $179.90, ahora con 55% de descuento.</div>
           <div class="prod-foot">
-            <div class="prod-price">$890</div>
+            <div class="prod-price">$79.90</div>
             <div class="prod-qty">
-              <button class="qty-btn" onclick="changeQty('f1',-1)">−</button>
-              <span class="qty-val" id="qty-f1">1</span>
-              <button class="qty-btn" onclick="changeQty('f1',1)">+</button>
+              <button class="qty-btn" onclick="changeQty('o-p15',-1)">−</button>
+              <span class="qty-val" id="qty-o-p15">1</span>
+              <button class="qty-btn" onclick="changeQty('o-p15',1)">+</button>
             </div>
           </div>
           <div class="prod-actions">
-            <button class="btn-add" id="btn-f1" onclick="addToCart('f1')">Agregar al carrito</button>
-            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('f1')">💬</a>
+            <button class="btn-add" id="btn-o-p15" onclick="addToCart('o-p15')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('o-p15')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="o-p13" data-name="Practivaso Toy Story 4 (Oferta)" data-code="U-571A · 1166410" data-price="79.90" data-img="images/practivaso-toystory.jpg">
+        <div class="prod-img"><img src="images/practivaso-toystory.jpg" alt="Practivaso Toy Story 4" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">-50%</span></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Oferta</div>
+          <div class="prod-name">Practivaso Toy Story 4, 470ml</div>
+          <div class="prod-desc">Código U-571A · 1166410. Antes $209.90, ahora con más del 50% de descuento.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$79.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('o-p13',-1)">−</button>
+              <span class="qty-val" id="qty-o-p13">1</span>
+              <button class="qty-btn" onclick="changeQty('o-p13',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-o-p13" onclick="addToCart('o-p13')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('o-p13')">💬</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="prod-card" data-id="o-p7" data-name="Practijarra Grande 2.25L (Oferta)" data-code="G-18CC · 10164273" data-price="279.90" data-img="images/practijarra-rosa.jpg">
+        <div class="prod-img"><img src="images/practijarra-rosa.jpg" alt="Practijarra Grande 2.25L" style="width:100%;height:100%;object-fit:cover;"><span class="prod-img-tag">-30%</span></div>
+        <div class="prod-body">
+          <div class="prod-cat-label">Oferta</div>
+          <div class="prod-name">Practijarra Grande 2.25L</div>
+          <div class="prod-desc">Código G-18CC · 10164273. Antes $399.90, ahora con 30% de descuento.</div>
+          <div class="prod-foot">
+            <div class="prod-price">$279.90</div>
+            <div class="prod-qty">
+              <button class="qty-btn" onclick="changeQty('o-p7',-1)">−</button>
+              <span class="qty-val" id="qty-o-p7">1</span>
+              <button class="qty-btn" onclick="changeQty('o-p7',1)">+</button>
+            </div>
+          </div>
+          <div class="prod-actions">
+            <button class="btn-add" id="btn-o-p7" onclick="addToCart('o-p7')">Agregar al carrito</button>
+            <a class="btn-wa-quick" target="_blank" onclick="return quickWhats('o-p7')">💬</a>
           </div>
         </div>
       </div>
@@ -751,6 +1002,7 @@
   </div>
 
 </section>
+
 
 <!-- ============ BENEFICIOS ============ -->
 <section class="section section-alt">
@@ -799,7 +1051,7 @@
     <div>
       <div class="contact-card">
         <div class="contact-icon">📞</div>
-        <div><div class="contact-label">WhatsApp</div><div class="contact-value"><a href="https://wa.me/5215555555555" target="_blank">55 5555 5555</a></div></div>
+        <div><div class="contact-label">WhatsApp</div><div class="contact-value"><a href="https://wa.me/5215541878852" target="_blank">55 5555 5555</a></div></div>
       </div>
       <div class="contact-card">
         <div class="contact-icon">⏰</div>
@@ -809,7 +1061,7 @@
         <div class="contact-icon">📍</div>
         <div><div class="contact-label">Zona de entrega</div><div class="contact-value">Entregas coordinadas en tu zona — pregúntanos por WhatsApp</div></div>
       </div>
-      <a href="https://wa.me/525541878852?text=Hola%2C%20quiero%20hacer%20un%20pedido" target="_blank" class="btn-fill" style="margin-top:6px;">💬 Escribir por WhatsApp</a>
+      <a href="https://wa.me/5215541878852?text=Hola%2C%20quiero%20hacer%20un%20pedido" target="_blank" class="btn-fill" style="margin-top:6px;">💬 Escribir por WhatsApp</a>
     </div>
     <div class="map-wrap reveal">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760!2d-99.13!3d19.43!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI1JzQ4LjAiTiA5OcKwMDcnNDguMCJX!5e0!3m2!1ses!2smx!4v1700000000000!5m2!1ses!2smx" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación de referencia"></iframe>
@@ -836,7 +1088,7 @@
     <div class="footer-col">
       <h5>Contacto</h5>
       <ul>
-        <li><a href="https://wa.me/5215555555555" target="_blank">💬 WhatsApp</a></li>
+        <li><a href="https://wa.me/5215541878852" target="_blank">💬 WhatsApp</a></li>
         <li style="color:rgba(255,253,249,0.4);">Lun–Sáb, 9am–7pm</li>
       </ul>
     </div>
@@ -846,7 +1098,7 @@
   </div>
 </footer>
 
-<a class="wa-float" href="https://wa.me/525541878852?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20sus%20productos" target="_blank" title="WhatsApp">💬</a>
+<a class="wa-float" href="https://wa.me/5215541878852?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20sus%20productos" target="_blank" title="WhatsApp">💬</a>
 
 <!-- ============ CART DRAWER ============ -->
 <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
@@ -860,7 +1112,7 @@
   </div>
   <div class="cart-foot">
     <div class="cart-total"><span>Total estimado</span><span id="cartTotal">$0</span></div>
-    <div class="cart-note">Al confirmar, se abrirá WhatsApp con <strong>un mensaje por cada producto</strong> de tu carrito, listo para enviar.</div>
+    <div class="cart-note">Al confirmar, se abrirá WhatsApp con <strong>un solo mensaje</strong> que incluye el detalle de todos los productos de tu carrito.</div>
     <button class="btn-checkout" id="checkoutBtn" onclick="checkout()" disabled>💬 Confirmar pedido por WhatsApp</button>
     <button class="btn-clear" onclick="clearCart()">Vaciar carrito</button>
   </div>
@@ -869,7 +1121,8 @@
 <div class="toast" id="toast"></div>
 
 <script>
-  const WHATSAPP_NUMBER = "525541878852"; // <-- reemplaza con tu número (con código de país, sin +)
+  const WHATSAPP_NUMBER = "5215541878852"; // <-- reemplaza con tu número (con código de país, sin +)
+  const SITE_BASE_URL = "https://cuvo-117.github.io/ventas"; // <-- ajusta si tu usuario/repo cambian
 
   let cart = {}; // { id: { name, price, qty } }
   const qtyState = {};
@@ -889,12 +1142,14 @@
     const card = getProductCard(id);
     const name = card.dataset.name;
     const price = parseFloat(card.dataset.price);
+    const code = card.dataset.code || '';
+    const img = card.dataset.img || '';
     const qty = qtyState[id] || 1;
 
     if(cart[id]){
       cart[id].qty += qty;
     } else {
-      cart[id] = { name, price, qty };
+      cart[id] = { name, price, qty, code, img };
     }
 
     renderCart();
@@ -938,12 +1193,13 @@
       const item = cart[id];
       const subtotal = item.price * item.qty;
       total += subtotal;
+      const codeLine = item.code ? ` · Cód: ${item.code}` : '';
       return `
         <div class="cart-item">
           <div class="cart-item-thumb">🛍️</div>
           <div class="cart-item-info">
             <div class="cart-item-name">${item.name}</div>
-            <div class="cart-item-meta">Cantidad: ${item.qty} · $${item.price} c/u</div>
+            <div class="cart-item-meta">Cantidad: ${item.qty} · $${item.price} c/u${codeLine}</div>
           </div>
           <button class="cart-item-remove" onclick="removeFromCart('${id}')">✕</button>
         </div>`;
@@ -957,26 +1213,36 @@
     const card = getProductCard(id);
     const name = card.dataset.name;
     const price = card.dataset.price;
+    const code = card.dataset.code || '';
+    const img = card.dataset.img || '';
     const qty = qtyState[id] || 1;
-    const msg = `Hola, me interesa el producto: *${name}*\nCantidad: ${qty}\nPrecio unitario: $${price}\n¿Está disponible?`;
+    const codeLine = code ? `\nCódigo: ${code}` : '';
+    const imgLine = img ? `\nFoto: ${SITE_BASE_URL}/${img}` : '';
+    const msg = `Hola, me interesa el producto: *${name}*${codeLine}\nCantidad: ${qty}\nPrecio unitario: $${price}${imgLine}\n¿Está disponible?`;
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`, '_blank');
     return false;
   }
 
-  // Abre un mensaje de WhatsApp por cada producto del carrito, con pequeño delay entre cada uno
+  // Genera UN solo mensaje de WhatsApp con el detalle completo del carrito (con código y foto)
   function checkout(){
     const ids = Object.keys(cart);
     if(ids.length === 0) return;
 
-    ids.forEach((id, index) => {
+    let total = 0;
+    let lines = ids.map(id => {
       const item = cart[id];
       const subtotal = item.price * item.qty;
-      const msg = `Hola, quiero confirmar este producto de mi pedido:\n\n🛍️ *${item.name}*\nCantidad: ${item.qty}\nPrecio unitario: $${item.price}\nSubtotal: $${subtotal}\n\n¿Podrían confirmarme disponibilidad y tiempo de entrega?`;
-      const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
-      setTimeout(()=> window.open(url, '_blank'), index * 350);
+      total += subtotal;
+      const codeLine = item.code ? `\nCódigo: ${item.code}` : '';
+      const imgLine = item.img ? `\nFoto: ${SITE_BASE_URL}/${item.img}` : '';
+      return `🛍️ *${item.name}*${codeLine}\nCantidad: ${item.qty} · Precio unitario: $${item.price}\nSubtotal: $${subtotal}${imgLine}`;
     });
 
-    showToast('Abriendo WhatsApp para cada producto…');
+    const msg = `Hola, quiero confirmar mi pedido:\n\n${lines.join('\n\n')}\n\n💰 *Total: $${total.toLocaleString('es-MX')}*\n\n¿Podrían confirmarme disponibilidad y tiempo de entrega?`;
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+    window.open(url, '_blank');
+
+    showToast('Abriendo WhatsApp con tu pedido completo…');
   }
 
   function openCart(){
